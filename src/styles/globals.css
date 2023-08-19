@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.btn{
+  width: 100px;
+}
+.btnUpdate{
+  width: 160px;
+  margin-top: 20px;
+
+}
+
+.btnBlog{
+  width: 120px;
+  margin-top: 20px;
+}
+.formBorder{
+ box-shadow: 1px 1px 8px #777;
+  padding: 50px;
+}
+.sticky-top{
+  position: sticky;
+  z-index: 999;
+  top: 0px;
+  padding: 12px 30px;
+  border-radius: 0px !important;
+}
+.myFlex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.sign-header{
+  font-size: 30px;
+  font-weight: 800;
+  padding: 10px;
+  background-color: #fff;
+  color: black;
+  box-shadow: 1px 0px 3px #777;
+}
+.dashboard{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  font-size: 25px;
+  font-weight: 900;
+}
+.dashboardblogs{
+font-size: 20px;
+font-weight: 700;
+padding-top: 15px;
+padding-bottom: 15px;
+padding-left: 30px;
+}
+.allCardsBlog{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:10px;
+  flex-wrap: wrap;
+}
+.btnCarddiv{
+  width: 100px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  color: blue;
+}
+.btnCarddiv1{
+  width: 150px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  color: blue;
+}
